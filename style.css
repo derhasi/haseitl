@@ -1,7 +1,7 @@
 section, header, footer {display: block;}
 body {
-  font-family: 'League Gothic' sans-serif;
-  color: #444;
+  font-family: sans-serif;
+  color: #fff;
   line-height: 1.5;
   font-size: 1em;
   background: #1e90ff;
@@ -13,41 +13,45 @@ body {
   margin: 0;
   padding: 0;
 }
-.w-main {
-  width: 80%;
+
+#page {
+  margin-top: 3em;
+  margin-left: 200px;
+  position: relative;
 }
-.centered {
-  margin-left: auto;
-  margin-right: auto;
+
+i {
+  color: white;
+  font-size: 12em;
+  display: block;
+  float:left;
 }
-header {
-  margin: 2em 0;
-  padding-bottom: .5em;
-  color: #666;
-  box-shadow: 0 2px #eee;
+i:hover {
+  color: #5cadff;
 }
+
 h1 {
+  font-family: 'League Gothic' sans-serif;
   font-size: 8em;
   font-weight: normal;
   color: #5cadff;
-  margin-top: 2em;
+  vertical-align: baseline;
+  float:left;
+  margin: 10px;
+  padding: 0;
+  line-height: 1em;
 }
-h1 i {
-  color: white;
-  font-size: 150%;
+
+p.body {
+  float:left;
+
 }
-h1 i:hover {
-  color: #5cadff;
-}
+
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after, .clear { clear: both; }
-footer {
-  margin-top: 5em;
-  padding: .5em 0;
-  box-shadow: 0 -2px #eee;
-}
+
 a, a:visited {
-  color: #B35047;
+  color: #d1e8ff;
   text-decoration: none;
 }
 a:hover, a:focus {color: #000;}
